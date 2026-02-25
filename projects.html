@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Nexus AI</title>
+  <meta name="description" content="Explore NexusAI's case studies: AI resume analysis, cybersecurity platforms, recommendation engines, and more." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Nav -->
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">
+        <span class="logo-mark">NX</span>
+        Nexus<span style="color:var(--accent)">AI</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="contact.html" class="btn btn-primary nav-cta">Get in Touch</a>
+      <button class="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  <div class="mobile-nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="grid-bg" aria-hidden="true"></div>
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="container">
+      <div class="section-label reveal">Case Studies</div>
+      <h1 class="hero-title reveal" style="max-width:700px">
+        Work That<br>
+        <span class="accent-word">Speaks for Itself</span>
+      </h1>
+      <p class="hero-sub reveal reveal-delay-1">
+        Six projects across AI, security, and automation — each with measurable impact on client businesses.
+      </p>
+    </div>
+  </section>
+
+  <!-- Filter + Grid -->
+  <section class="section">
+    <div class="container">
+
+      <div class="projects-filter reveal">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="ai">AI / ML</button>
+        <button class="filter-btn" data-filter="cyber">Cybersecurity</button>
+        <button class="filter-btn" data-filter="web">Web Dev</button>
+        <button class="filter-btn" data-filter="ml">Recommendation</button>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- ResumeIQ -->
+        <article class="project-card reveal reveal-delay-1" data-modal="resume-ai" data-category="ai" tabindex="0" role="button" aria-label="View ResumeIQ case study">
+          <div class="project-img ai">
+            🧠
+            <div class="project-overlay"><span class="project-overlay-text">// VIEW CASE STUDY</span></div>
+          </div>
+          <div class="project-info">
+            <div class="project-cat">AI / Machine Learning</div>
+            <h3>ResumeIQ — AI Resume Analyzer</h3>
+            <p>NLP-powered platform that reduced recruiter screening time by 70% and improved placement accuracy by 45%.</p>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">BERT</span>
+              <span class="tag">FastAPI</span>
+              <span class="tag">React</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- CyberWatch -->
+        <article class="project-card reveal reveal-delay-2" data-modal="cyberwatch" data-category="cyber" tabindex="0" role="button" aria-label="View CyberWatch case study">
+          <div class="project-img cyber">
+            🛡️
+            <div class="project-overlay"><span class="project-overlay-text">// VIEW CASE STUDY</span></div>
+          </div>
+          <div class="project-info">
+            <div class="project-cat">Cybersecurity</div>
+            <h3>CyberWatch — Threat Intelligence</h3>
+            <p>Real-time ML-powered anomaly detection deployed across 12 enterprise clients with 99.97% uptime.</p>
+            <div class="project-tags">
+              <span class="tag">TensorFlow</span>
+              <span class="tag">Kafka</span>
+              <span class="tag">Kubernetes</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- PulseRec -->
+        <article class="project-card reveal reveal-delay-3" data-modal="recengine" data-category="ml" tabindex="0" role="button" aria-label="View PulseRec case study">
+          <div class="project-img ml">
+            ⚡
+            <div class="project-overlay"><span class="project-overlay-text">// VIEW CASE STUDY</span></div>
+          </div>
+          <div class="project-info">
+            <div class="project-cat">Recommendation Engine</div>
+            <h3>PulseRec — Recommendation Engine</h3>
+            <p>Hybrid rec system serving 2M+ daily requests. Increased user engagement by 38% in 30 days.</p>
+            <div class="project-tags">
+              <span class="tag">PyTorch</span>
+              <span class="tag">Apache Spark</span>
+              <span class="tag">Redis</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- AutoFlow -->
+        <article class="project-card reveal reveal-delay-1" data-modal="autoflow" data-category="web" tabindex="0" role="button" aria-label="View AutoFlow case study">
+          <div class="project-img web">
+            🤖
+            <div class="project-overlay"><span class="project-overlay-text">// VIEW CASE STUDY</span></div>
+          </div>
+          <div class="project-info">
+            <div class="project-cat">Web Automation</div>
+            <h3>AutoFlow — Automation Suite</h3>
+            <p>AI-powered browser automation with self-healing selectors and natural language test generation.</p>
+            <div class="project-tags">
+              <span class="tag">Node.js</span>
+              <span class="tag">Playwright</span>
+              <span class="tag">OpenAI API</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- EthicAI -->
+        <article class="project-card reveal reveal-delay-2" data-modal="ethicai" data-category="ai" tabindex="0" role="button" aria-label="View EthicAI case study">
+          <div class="project-img ai">
+            ⚖️
+            <div class="project-overlay"><span class="project-overlay-text">// VIEW CASE STUDY</span></div>
+          </div>
+          <div class="project-info">
+            <div class="project-cat">Ethical AI</div>
+            <h3>EthicAI — Bias Detection Toolkit</h3>
+            <p>Open-source toolkit for bias detection in ML models. 4K+ GitHub stars, used in regulatory compliance.</p>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Fairlearn</span>
+              <span class="tag">FastAPI</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- DashPro -->
+        <article class="project-card reveal reveal-delay-3" data-modal="dashpro" data-category="web" tabindex="0" role="button" aria-label="View DashPro case study">
+          <div class="project-img web">
+            📊
+            <div class="project-overlay"><span class="project-overlay-text">// VIEW CASE STUDY</span></div>
+          </div>
+          <div class="project-info">
+            <div class="project-cat">Web Development</div>
+            <h3>DashPro — Analytics Dashboard</h3>
+            <p>Real-time analytics with 50K concurrent connections, sub-100ms latency, and AI-generated insights.</p>
+            <div class="project-tags">
+              <span class="tag">React</span>
+              <span class="tag">D3.js</span>
+              <span class="tag">WebSockets</span>
+              <span class="tag">InfluxDB</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ Project Modal ════════════════════════════════════ -->
+  <div id="projectModal" class="modal-overlay" role="dialog" aria-modal="true" aria-label="Project details">
+    <div class="modal">
+      <div class="modal-header">
+        <span></span>
+        <button class="modal-close" aria-label="Close modal">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-emoji">🧠</div>
+        <h2 class="modal-title">Project Title</h2>
+        <div class="modal-cat">Category</div>
+        <p class="modal-desc">Description goes here.</p>
+        <div class="modal-tech-label">Technologies Used</div>
+        <div class="modal-tags"></div>
+        <div class="modal-actions">
+          <a href="#" class="btn btn-primary btn-demo" target="_blank" rel="noopener">
+            Live Demo
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+          <a href="#" class="btn btn-ghost btn-github" target="_blank" rel="noopener">
+            GitHub
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo" style="margin-bottom:1rem;display:inline-flex">
+            <span class="logo-mark">NX</span>Nexus<span style="color:var(--accent)">AI</span>
+          </a>
+          <p>Building the next generation of intelligent systems.</p>
+          <div class="social-links">
+            <a href="#" class="social-link">𝕏</a>
+            <a href="#" class="social-link">in</a>
+            <a href="#" class="social-link">⌥</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="projects.html">Case Studies</a></li>
+            <li><a href="contact.html">Careers</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html">AI Development</a></li>
+            <li><a href="services.html">Cybersecurity</a></li>
+            <li><a href="services.html">Automation</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:hello@nexusai.dev">hello@nexusai.dev</a></li>
+            <li><a href="contact.html">Get a Quote</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 NexusAI Inc. All rights reserved.</span>
+        <span style="font-family:var(--font-mono);font-size:0.72rem;color:var(--accent)">// built with intent</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
